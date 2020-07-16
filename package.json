@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^1.11.1",
+    "s": "^1.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
