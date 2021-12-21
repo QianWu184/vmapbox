@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Autor: wq
+ * @Date: 2021-12-21 09:47:46
+ * @watermark: 成都沃飞长空
+ * @LastEditors: wq
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,6 +13,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-115PL8RFR5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-115PL8RFR5");
+    </script>
   </head>
   <body>
     <noscript>
@@ -16,8 +37,7 @@
       >
     </noscript>
     <div id="app"></div>
-    <script>
-    </script>
+    <script></script>
     <!-- built files will be auto injected -->
   </body>
 </html>

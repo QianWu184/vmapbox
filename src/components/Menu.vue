@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Autor: wq
+ * @Date: 2021-12-21 09:47:46
+ * @watermark: 成都沃飞长空
+ * @LastEditors: wq
+-->
 <template>
     <div id="menu">
         <ul class="card-list">
@@ -16,7 +23,7 @@ export default {
   data(){
     return{
         messages:[{
-          name: '点点点',
+          name: '改改改',
           lon: 101.223,
           lat:  28.333
         },{
