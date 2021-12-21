@@ -27,7 +27,7 @@ export default {
           lon: 101.223,
           lat:  28.333
         },{
-          name: '哦哦哦',
+          name: '测试',
           lon: 101.223,
           lat:  29.333
         },{
